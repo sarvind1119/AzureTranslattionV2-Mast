@@ -1,0 +1,88 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #000; /* Change background to black */
+    color: #fff; /* Change default text color to white */
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #00457c;
+    color: white;
+}
+
+.logo {
+    height: 60px;
+}
+
+.title {
+    margin: 0;
+    font-size: 1.5rem;
+}
+
+.main {
+    max-width: 1000px;
+    margin: 40px auto;
+    padding: 20px;
+    background: #000000;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    color: #fff; /* Change default text color to white */
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 1rem;
+}
+
+.controls {
+    text-align: center;
+}
+
+button {
+    padding: 10px 20px;
+    margin: 0 10px;
+    font-size: 1rem;
+    color: white;
+    background-color: #00457c;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #003354;
+}
+
+#translation-output {
+    margin-top: 30px;
+    text-align: center;
+}
+
+#translated-text {
+    font-size: 20pt; /* Increase font size */
+    color: #fff; /* Change translated text to white */
+    background: #333; /* Optional: make the background darker for contrast */
+    padding: 20px; /* Add more padding */
+    border-radius: 5px;
+    text-align: center; /* Center the text */
+}
